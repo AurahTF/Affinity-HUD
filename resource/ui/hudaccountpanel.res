@@ -1,0 +1,61 @@
+"Resource/UI/HudAccountPanel.res"
+{
+	"CHudAccountPanel"
+	{
+		"delta_item_x"			"50"
+		"delta_item_start_y"	"0"
+		"delta_item_end_y"		"0"
+		"PositiveColor"			"bBlue"
+		"NegativeColor"			"255 0 0 255"
+		"delta_lifetime"		"1.5"
+		"delta_item_font"		"HudFontMedium"
+	}
+	
+	"MetalIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MetalIcon"
+		"xpos"			"-5"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"13"
+		"tall"			"13"
+		"visible"		"1"
+		"visible_minmode"		"0"
+		"enabled"		"1"
+		"enabled_minmode"		"0"
+		"scaleImage"	"1"	
+		"icon"			"ico_metal"
+		"iconColor"		"255 255 255 255"
+		"pin_to_sibling" "AccountValue"
+		"pin_corner_to_sibling" "PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" "PIN_CENTER_LEFT"
+	}
+	
+	"AccountValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AccountValue"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"auto_wide_tocontents"	"1"
+		"tall"			"20"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"35"
+		"labelText"		"%metal%"
+		"textAlignment"	"west"
+		"textAlignment_minmode"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"HudFontMediumSmall"
+		"border"	"bBorderGrey"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"bgrey"
+		
+	}
+}
