@@ -274,13 +274,31 @@
 		"fieldName"		"Hide"
 		"xpos"	"c-125"
 //		"xpos"	"0"
-		"ypos"	"c80"
+		"ypos"	"c75"
 //		"ypos"	"0"
 		"zpos"	"99"
 		"wide"	"250"
 //		"wide"	"f0"
-		"tall"	"27"
+		"tall"	"33"
 //		"tall"	"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/REFRACT3dclassover"	//"replay/thumbnails/hp/REFRACT3dclassover"
+		"teambg_2"			"replay/thumbnails/REFRACT3dclassover"
+		"teambg_3"			"replay/thumbnails/REFRACT3dclassover"
+	}
+	
+	"HideKS"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Hide"
+		"xpos"			"94"	[$WIN32]
+		"ypos"			"r52"	[$WIN32]
+		"ypos_minmode"			"r20"	[$WIN32]
+		"wide"			"50"
+		"tall"			"34"
+		"tall_minmode"			"17"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
